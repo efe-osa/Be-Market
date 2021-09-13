@@ -1,0 +1,52 @@
+@keyframes logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.appContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 24px;
+  color: var(--color-primary);
+}
+
+.category {
+  composes: subTitle;
+  color: var(--color-gray-darkest);
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 92px;
+    padding-right: 67px;
+  }
+}
+.loader {
+  color: var(--color-gray-dark);
+  animation: logo-float 770ms ease-in infinite;
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  height: 124px;
+  border-bottom: 4px solid var(--color-gray-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartBtn {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  color: var(--color-primary);
+}
+.cartBtn:hover,.cartBtn:focus {
+  color: rgba(0, 0, 0, 0.8);
+  transition: all ease-out 400ms;
+  transform:  translateX(2px);
+}
+
+.cartCounter {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 1px 4px;
+  position: absolute;
+  right: -4px;
+  bottom: -8px;
+}
+
+

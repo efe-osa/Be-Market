@@ -1,0 +1,23 @@
+.pageButtonBox{
+  margin-top: 34px;
+  height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.pageButton{
+  appearance: none;
+  background-color: transparent;
+  border:none;
+  color: var(--color-gray-dark);
+  margin-right: 15px;
+  font-size: 29px;
+  cursor: pointer;
+}
+.pageButton:disabled{
+  opacity: .3;
+  cursor: not-allowed;
+}
+.active {
+  color: var(--color-primary);
+}

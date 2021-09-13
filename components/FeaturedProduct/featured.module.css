@@ -1,0 +1,138 @@
+.featuredContainer {
+  padding-top: 58px;
+  padding-bottom: 42px;
+  border-bottom: 4px solid #e4e4e4;
+  position: relative;
+}
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 13px 39px;
+  font-size: 1.438rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  margin-top: 30px;
+}
+.featuredTitle {
+  height: 47px;
+  margin-bottom: 27px;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 35px;
+  color: var(--color-primary);
+}
+.featuredImgBox {
+  position: relative;
+  margin:0;
+  height: 239px;
+  width: 100%;
+}
+.featuredTag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 227px;
+  width: 100%;
+  height: 67px;
+  font-size: 1.25rem; /* 1.25 * 16px =  20px */
+  font-weight: 700;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+.featuredCaption {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap:27px;
+}
+.featuredCategory{
+  composes: category from '/styles/index.module.css';
+  display: inline-block;
+  margin-top: 14px;
+  text-transform: capitalize;
+}
+.featuredDescription {
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 27px;
+  color: var(--color-gray-darkest);
+  width: 100%;
+  margin-top: 14px;
+}
+.featuredDetails{
+  text-align: left;
+}
+.featuredSmallText {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 17px;
+  color: var(--color-gray-darkest);
+  margin-top: 18px;
+}
+.relatedHeading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 1.5rem;
+  text-align: right;
+  color: var(--color-primary);
+}
+.relatedProducts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 98px));
+  grid-template-rows: 122.58px;
+  gap: 30px;
+  margin-top: 27px;
+  margin-bottom: 54px;
+}
+.relatedProductImg {
+  max-width: 98px;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .button {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: auto;
+  }
+  .featuredImgBox {
+    height: 553px;
+  }
+  .featuredTag {
+    max-width: 272px;
+  }
+  .featuredCaption{
+    flex-direction: row;
+  }
+  .featuredDescription{
+    max-width: 600px;
+  }
+  .featuredDetails{
+    text-align: right;
+}
+  .relatedProducts {
+    grid-template-columns: repeat(3, minmax(0, 117px));
+    grid-template-rows: 147px;
+    column-gap: 35px;
+  }
+  .relatedProductImg {
+    max-width: 117px;
+  }
+}
+@media (min-width: 1440px) {
+.featuredDescription{
+  max-width: 690px;
+}}

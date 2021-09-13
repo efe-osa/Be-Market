@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bejamas-market",
+  "private_key_id": "95474fe9a7b0ab494bca02275c091df020c8b0ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC32nb7/G3RJNRo\nqzK2biWB6meoxPtBgPJ1mwf+pMxxmQfAcC62/X3Dzpd7PjoEaJobH/xKf9WcPHix\nrVL5br5DxPHRIg6yW+5F/cmuKB7owth87nU2N5cy6hh8uGt/IZrwG7wTGCH3iqQ9\n6gcvCm4zKmj11egpYsPjWz5L5DaD+IvZMZStfpF3hov2IaSLn4i5OIwRKWYKs5+A\nNH6CL/rEcUD/JmmZ8CTrBQAU/re8SvGEMgmg2NFkqH+AuP+1XJ6evfVvH2gjz1qn\nNXgOIUzlt2n3sbtKgIgQBOWuq69FFP2BSgRqEKIhO/ZB/SjRsgdVcm8/uVIt9/JI\nnroAqHxtAgMBAAECggEAIrY7D8FtpHadKfPku7/ZEgnFL36dZ5UmceDm5gOMXAhG\nB+XGVCNRGuaHACxT/OAY9HUaB6DSHlDmgrlUOKbZgmcNNuyEtNUZjBpp+Rk3GMAs\n6o2FEMr3H5RGMkoJdbPNEndSD5LXWurQrqXgXFfOTZe8wGl2D1ZH4MWp4d9BEbJJ\n1sOkhe2UcU0M5sbbCmO7bUApADeajeWUeYDyg7jZrZrDUuLyKKTWXaiE+3M8P2Yz\nb8rq81v4VOHYTRN+yFo+Li/djArfKBqQaSxmV0tT7Gtt31jPIXuYF6OVQhU1na1T\nK64dlmcrKOtDEPb8Hl3ekJnEAfwodw/ytg9xe1+TKwKBgQDreWDgcC4UUMdWE/xB\n9M6zPZc51u7Y3KhyJzA6cTfZFAosBgl326j/+DQBGsyKYYlm54cwk8qt80VER5aW\ndpO1cKG/xSwXSoZaKkEpVA1pISHFONuC7b94qboNtbrFUL4sy1RF4RhNnBbObrr7\ncxbM/3HHfcuiEzqSHjIk+qNSywKBgQDH4Splm6qKxHZRT4vPyFcp2sS50lsEkWGE\nPcqC2D3l8w4BW0IEy9xN30cT5RlDWDOyz8NG5+YUcjjN0cOgKxkss4ud+KToyB5m\n9SnclwQcDFlEEZHiNKnwL1Eql46NbxR/plK8y/egG19QT0UCi62sgsnI6tvlZU5Z\nzbY8RRcupwKBgEgchcR11ka2bjU4LZptRBe0FunJnp+fA57hzW04WugJsQvGVYP1\nKw4ojpSABn+iWxe+c7I2sG0RAPdmDQHLEnUQJxi5Y0VGt1pJcmcbrHezg8oIHYE9\nGdPz9lxYePgQQA0rv4Ue5/hsgrd5RZ3XovXojImRRpk91kQFJ0oXz4h9AoGANW8M\nVn126gH7X2FUjwePxbCmRsblbiMvXprmOHR2l7KSW+p5i660Bl1aMwdb6ZT6vSKt\noZb8+xpN9TfOhFMBN+IHwQNnkpNtDTkdJ8t3XcgvVPMdfMt3Yq5DlI9PnJ/Faxqb\no70jRboLkPygBj4w/503NG8Uug6LE5ba0OHngKECgYAW5uhO7GB7uAD2WCrz00Xi\nyknMPIGMCLdBAqkZXtCmOe7l6L6/sIZLhF2ZEtjmwkKmPgvOvLTLdn3Fulh0L9ID\nr+Ov1T/ZxiwOkQhSBQMx3mppSZt9AXLNN7c+9tcoFqHNGI0VbO8teRqEImG4fUBz\nWdjM0IfPLGOZhzjwkrBbew==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-t0xba@bejamas-market.iam.gserviceaccount.com",
+  "client_id": "104031758842567195626",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-t0xba%40bejamas-market.iam.gserviceaccount.com"
+}
