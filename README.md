@@ -9,10 +9,10 @@ It is a marketplace for selling images and artworks.
 
 Used number of open source projects to work properly:
 * For frontend:
-    * [Next] with TypeScript
-    * [React]
-    * [Jest] for unit testing
-    * [@testing-library/react] for unit testing
+    * Next with TypeScript
+    * React
+    * Jest for unit testing
+    * @testing-library/react for unit testing
 
 
 
